@@ -1,0 +1,54 @@
+@import "./mixin";
+@import "./theme";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+#app {
+  background: #fff;
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
+
+.pf {
+  position: fixed;
+}
+
+// .icon {
+//   display: inline-block;
+//   width: .5867rem;
+//   height: .5867rem;
+//   background-image: url("assets/images/icons/home@2x.png");
+//   background-repeat: no-repeat;
+//   background-size: 100% 100%;
+// }
+
+// 背景颜色
+.bg-white {
+  background: #fff
+}
+
+.error {
+  color: $gtopicColor;
+}
